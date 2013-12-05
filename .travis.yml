@@ -1,0 +1,9 @@
+language: scala
+scala:
+   - 2.10.0
+jdk:
+   - oraclejdk7
+after_script:
+   - "chmod 755 scripts/bench.sh"
+   - "scripts/bench.sh"
+
