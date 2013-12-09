@@ -3,4 +3,4 @@
 #spreadsheets = api.list_spreadsheets()
 
 import urllib2
-urllib2.urlopen("https://docs.google.com/forms/d/1IFqNiEE5p67_tyy7tCevn8t_p8NDWcEQ3pgEd1Ggt40/formResponse?entry.111568791=Test&entry.559553889=3.3").read()
+urllib2.urlopen("https://docs.google.com/forms/d/1IFqNiEE5p67_tyy7tCevn8t_p8NDWcEQ3pgEd1Ggt40/formResponse?entry.111568791=3.2&entry.559553889=5.3").read()
