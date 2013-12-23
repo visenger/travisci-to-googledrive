@@ -1,4 +1,6 @@
-#!/usr/bin/env scala
+#!/bin/sh
+exec scala "$0" "$@"
+!#
 
 case class Person(name: String)
 
