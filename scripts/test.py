@@ -8,11 +8,11 @@ import argparse
 parser = argparse.ArgumentParser()
 
 #{1} args.memory
-parser.add_argument("-m", "--memory", type=float, default=0.0
+parser.add_argument("-m", "--memory", type=float, default=0.0,
                     help="display a square of a given number")
 
 #{0} args.runtime
-parser.add_argument("-r", "--runtime", type=float, default=0.0
+parser.add_argument("-r", "--runtime", type=float, default=0.0,
                     help="display a square of a given number")                    
 args = parser.parse_args()
 
