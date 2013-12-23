@@ -4,14 +4,7 @@ scala:
 jdk:
    - oraclejdk7
 before_install:
-   - wget http://www.scala-lang.org/downloads/distrib/files/scala-2.10.0.tgz
-   - tar zxf scala-2.10.0.tgz
-   - sudo mv scala-2.10.0 /usr/share/scala
-   - sudo ln -s /usr/share/scala/bin/scala /usr/bin/scala
-   - sudo ln -s /usr/share/scala/bin/scalac /usr/bin/scalac
-   - sudo ln -s /usr/share/scala/bin/fsc /usr/bin/fsc
-   - sudo ln -s /usr/share/scala/bin/scaladoc /usr/bin/scaladoc
-   - sudo ln -s /usr/share/scala/bin/scalap /usr/bin/scalap
+   - sudo apt-get install scala
 after_script:
    - "chmod 755 scripts/bench.sh"
    - "chmod 755 scripts/run_bench.sh"
