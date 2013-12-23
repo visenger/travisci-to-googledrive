@@ -3,9 +3,6 @@ scala:
    - 2.10.0
 jdk:
    - oraclejdk7
-before_script:
-    - "chmod 755 scripts/init.sh"
-    - "scripts/init.sh"
 after_script:
    - "chmod 755 scripts/bench.sh"
    - "scripts/bench.sh"
